@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+    <project>
+        <title>Personal Portfolio Website</title>
+        <description>
+            A personal portfolio website showcasing my skills, projects, and resume. 
+            It includes sections such as home, about, skills, and contact.
+            Users can explore the home, about, skills, and contact sections for a comprehensive overview.
+        </description>
+        <technologies>
+            <technology>HTML</technology>
+            <technology>CSS</technology>
+            <technology>JavaScript</technology>
+        </technologies>
+        <year>2023</year>
+    </project>
+    <project>
+        <title>Book Store Website</title>
+        <description>
+            A simple book store website created using only HTML and CSS.
+            It features a clean and responsive design, displaying a collection of books.
+            The website features a user-friendly interface, allowing visitors to explore book categories, view details, and easily navigate through the collection. 
+        </description>
+        <technologies>
+            <technology>HTML</technology>
+            <technology>CSS</technology>
+        </technologies>
+        <year>2023</year>
+    </project>
+    <project>
+        <title>Calculator Website</title>
+        <description>
+            An interactive calculator website built using HTML, CSS, and JavaScript.
+            It supports basic arithmetic operations and provides a user-friendly interface.
+            The calculator allows users to perform calculations with ease.
+        </description>
+        <technologies>
+            <technology>HTML</technology>
+            <technology>CSS</technology>
+            <technology>JavaScript</technology>
+        </technologies>
+        <year>2023</year>
+    </project>
+</projects>
+

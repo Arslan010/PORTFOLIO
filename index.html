@@ -1,0 +1,265 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- ===========================font============================== -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- ============icon============= -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- ============================jquery_file================================ -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+ </head>
+ <body>
+    
+
+
+
+    <header class="header">
+
+<!-- 
+        ========================================navbar===================================== -->
+
+        <a href="#home" class="logo">Arslan
+        <span>Ahmed</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact" >Contact</a>
+
+
+        </nav>
+    </header>
+
+    <!-- =====================================home===================================== -->
+
+    <section class="home" id="home">
+
+
+        <div class="home_img">
+            <img src="./Images/image1.jpeg" alt="">
+        </div>
+        <div class="home_content">
+            <h3>Hi</h3>
+            <h1>It's <span>Arslan</span></h1>
+            <h3>I'm a <span>Front-End Devloper.</span></h3>
+        <div class="social_icons">
+            <a href="https://linkedin.com/in/arslanahmed07"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/Arslan010"><i class='bx bxl-github'></i></a>
+        </div>
+            <a href="./Resume/Resume.pdf" class="btn" target="_blank"><i class='bx bxs-download'></i>Download Cv</a>
+            <a href="#contact" class="btn">Hire me</a>
+    </section>
+
+    <!-- ==============================================about=================================== -->
+
+    <section class="about" id="about">
+        <div class="about_content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>I'm a front end devloper with a love for making websites that are easy to use and look great. I work with HTML, CSS, and JavaScript, and enjoy turning ideas into beautiful web experiences.i'm keen on pushing the boundaries of front-end development. Let's connect and bring digital ideas to life!</p>
+        </div>
+
+        <div class="about_img">
+            <img src="./Images/image3.jpeg" alt="">
+        </div>
+
+    </section>
+    
+
+    <!-- ================================================skills============================================ -->
+
+
+    <section class="container skill_container" id="skill">
+     
+        <h1>My <span>Skills</span></h1>
+        <h2><span>Programming</span> Skills</h2>
+    
+                <div class="skill_subcontainer">
+                    
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress_bar" value="94%">
+                            <div class="progress_line" style="max-width: 94%"><p>94.00%</p></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress_bar" value="80%">
+                            <div class="progress_line" style="max-width: 80%"><p>80.00%</p></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="subject">Jquery</div>
+                        <div class="progress_bar" value="40%">
+                            <div class="progress_line" style="max-width: 40%"><p>40.00%</p></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress_bar" value="65%">
+                            <div class="progress_line" style="max-width: 65%"><p>65.00%</p></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">SQL</div>
+                        <div class="progress_bar" value="90%">
+                            <div class="progress_line" style="max-width: 90%"><p>90.00%</p></div>
+                        </div>
+                    </div>
+    
+                </div>
+    </section>
+
+
+    
+    <!-- ============================================portfolio=============================================== -->
+
+    <section class="portfolio" id="portfolio">
+        <h1>My <span>Projects</span></h1>
+    
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="frontend">Frontend Projects</button>
+            <button class="filter-btn" data-filter="other">Other Projects</button>
+        </div>
+    
+        <div class="project-container">
+            <!-- Frontend Projects -->
+            <div class="project frontend">
+                <img src="./Images/project1.png" alt="Project 1" class="project-img" />
+                <div class="project-info">
+                    <h2 class="project-title">Student Portfolio Website</h2>
+                    <p class="project-description">
+                        A personal portfolio website showcasing my skills, projects, and resume.
+                        It includes sections such as home, about, skills, and contact.
+                        Users can explore the home, about, skills, and contact sections for a comprehensive overview.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="project frontend">
+                <img src="./Images/project2.jpg" alt="Project 2" class="project-img" />
+                <div class="project-info">
+                    <h2 class="project-title">Book Store</h2>
+                    <p class="project-description">
+                        A simple book store website created using only HTML and CSS.
+                        It features a clean and responsive design, displaying a collection of books.
+                        The website features a user-friendly interface, allowing visitors to explore book categories, view details, and easily navigate through the collection.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="project frontend">
+                <img src="./Images/project4.png" alt="Project 4" class="project-img" />
+                <div class="project-info">
+                    <h2 class="project-title">Online Calculator Website</h2>
+                    <p class="project-description">
+                        A web-based calculator application for performing basic arithmetic operations.
+                        The calculator provides a user-friendly interface for quick and convenient calculations.
+                    </p>
+                </div>
+            </div>
+    
+            <!-- Other Projects -->
+            <div class="project other">
+                <img src="./Images/project3.jpg" alt="Project 3" class="project-img" />
+                <div class="project-info">
+                    <h2 class="project-title">Facial Recognition Door Lock</h2>
+                    <p class="project-description">
+                        A secure and user-friendly smart lock that uses facial detection to grant access, providing a seamless and convenient way to enhance home security.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="project other">
+                <img src="./Images/project5.jpeg" alt="Project 5" class="project-img" />
+                <div class="project-info">
+                    <h2 class="project-title">Bluetooth Surveillance Robot Car</h2>
+                    <p class="project-description">
+                        Meet the Arduino Bluetooth Robot Car: a remote-controlled surveillance marvel! With Arduino brains and Bluetooth connectivity, effortlessly drive and stream live video from your smartphone. Perfect for fun exploration or monitoring spaces with ease!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+<!-- =================================contact============================================ -->
+
+
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+        <div class="contact-container">
+            <form id="contact-form"   action="https://formspree.io/f/xjvngjjo"
+            method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" autocomplete="off" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" autocomplete="off" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ===========================================footer================================================ -->
+
+    <footer class="footer">
+
+        <div class="social">
+
+            <a href="https://linkedin.com/in/arslanahmed07"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/Arslan010"><i class='bx bxl-github'></i></a>
+
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#">Privacy Policy</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            @ Arslan Ahmed | All Rights Reserved
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+ </body>
+ </html>
